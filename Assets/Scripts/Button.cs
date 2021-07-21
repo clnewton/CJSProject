@@ -10,7 +10,9 @@ public class Button : MonoBehaviour
 	[SerializeField] AnimatorFunctions animatorFunctions;
 	[SerializeField] int thisIndex;
 
-    public string scene;
+    public bool changeScene;
+	public bool quitButton;
+	public string scene;
 
     // Update is called once per frame
     void Update()
@@ -23,7 +25,14 @@ public class Button : MonoBehaviour
 			}else if (animator.GetBool ("pressed")){
 				animator.SetBool ("pressed", false);
 				animatorFunctions.disableOnce = true;
-                SceneManager.LoadScene(scene);
+
+				if(changeScene){
+					SceneManager.LoadScene(scene);
+				}
+				else if(quitButton)
+				{
+					Application.Quit();
+				}
 			}
 		}else{
 			animator.SetBool ("selected", false);
