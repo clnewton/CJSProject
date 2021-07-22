@@ -279,6 +279,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3146372409782672404, guid: b97235005b6b04770bb2f46897ad8615, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146372409782672404, guid: b97235005b6b04770bb2f46897ad8615, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146372409782672404, guid: b97235005b6b04770bb2f46897ad8615, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146372409782672404, guid: b97235005b6b04770bb2f46897ad8615, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 3840
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146372409782672404, guid: b97235005b6b04770bb2f46897ad8615, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 2160
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146372409782672404, guid: b97235005b6b04770bb2f46897ad8615, type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 3146372409782672406, guid: b97235005b6b04770bb2f46897ad8615, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -366,6 +390,10 @@ PrefabInstance:
     - target: {fileID: 3343162604173464097, guid: b97235005b6b04770bb2f46897ad8615, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4304856038782373839, guid: b97235005b6b04770bb2f46897ad8615, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b97235005b6b04770bb2f46897ad8615, type: 3}
